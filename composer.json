@@ -1,0 +1,20 @@
+{
+    "name": "asthapandey06/composertestdemo",
+    "description": "testing composer..",
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Astha Pandey",
+            "email": "asthapandey2022jan@cedcoss.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Test\\":"src/"
+        }
+    },
+    "require": {}
+}
